@@ -1,0 +1,1 @@
+import{j as t}from"./index-D433XKWQ.js";import{B as a}from"./TextInput-BXmPZhij.js";import{M as m}from"./mail-CMwnkXtI.js";function i(s){return t.jsx(a,{type:"email",leftIcon:t.jsx(m,{className:"h-4 w-4"}),...s})}export{i as E};

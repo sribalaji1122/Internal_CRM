@@ -1,0 +1,6 @@
+import{c as a,a as n}from"./index-D433XKWQ.js";/**
+ * @license lucide-react v0.395.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c=a("Activity",[["path",{d:"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2",key:"169zse"}]]),o={getCompanies(e){return n.get("/companies",{params:e})},getCompany(e){return n.get(`/companies/${e}`)},createCompany(e){return n.post("/companies",e)},updateCompany(e,t){return n.put(`/companies/${e}`,t)},deleteCompany(e){return n.delete(`/companies/${e}`)},getLeads(e,t){return n.get(`/companies/${e}/leads`,{params:t})},getContacts(e,t){return n.get(`/companies/${e}/contacts`,{params:t})},getDeals(e,t){return n.get(`/companies/${e}/deals`,{params:t})},getMeetings(e,t){return n.get(`/companies/${e}/meetings`,{params:t})},getCampaigns(e,t){return n.get(`/companies/${e}/campaigns`,{params:t})},getDocuments(e,t){return n.get(`/companies/${e}/documents`,{params:t})},getActivity(e,t){return n.get(`/companies/${e}/activity`,{params:t})}},r={getDocuments(e,t){return n.get(`/documents/${e}/${t}`)},uploadDocument(e){return n.post("/documents",e)},deleteDocument(e){return n.delete(`/documents/${e}`)}};export{c as A,o as C,r as D};

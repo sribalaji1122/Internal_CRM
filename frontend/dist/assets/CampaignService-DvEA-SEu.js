@@ -1,0 +1,1 @@
+import{a as e}from"./index-D433XKWQ.js";const p={getCampaigns(a){return e.get("/campaigns",{params:a})},getCampaign(a){return e.get(`/campaigns/${a}`)},createCampaign(a){return e.post("/campaigns",a)},updateCampaign(a,t){return e.put(`/campaigns/${a}`,t)},deleteCampaign(a){return e.delete(`/campaigns/${a}`)}};export{p as C};

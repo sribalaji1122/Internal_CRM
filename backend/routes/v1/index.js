@@ -1,0 +1,40 @@
+import express from 'express';
+import leadRoutes from '../leadRoutes.js';
+import dealRoutes from '../dealRoutes.js';
+import taskRoutes from '../taskRoutes.js';
+import companyRoutes from '../companyRoutes.js';
+import contactRoutes from '../contactRoutes.js';
+import meetingRoutes from '../meetingRoutes.js';
+import calendarRoutes from '../calendarRoutes.js';
+import campaignRoutes from '../campaignRoutes.js';
+import productCategoryRoutes from '../productCategoryRoutes.js';
+import productBrandRoutes from '../productBrandRoutes.js';
+import productRoutes from '../productRoutes.js';
+import productVariantRoutes from '../productVariantRoutes.js';
+import inventoryRoutes from '../inventoryRoutes.js';
+import dealItemRoutes from '../dealItemRoutes.js';
+import quoteRoutes from '../quoteRoutes.js';
+import reportRoutes from '../reportRoutes.js';
+import analyticsRoutes from '../analyticsRoutes.js';
+
+const router = express.Router();
+
+router.use('/leads', leadRoutes);
+router.use('/deals', dealRoutes);
+router.use('/tasks', taskRoutes);
+router.use('/companies', companyRoutes);
+router.use('/contacts', contactRoutes);
+router.use('/meetings', meetingRoutes);
+router.use('/calendar', calendarRoutes);
+router.use('/campaigns', campaignRoutes);
+router.use('/product-categories', productCategoryRoutes);
+router.use('/product-brands', productBrandRoutes);
+router.use('/products', productRoutes);
+router.use('/product-variants', productVariantRoutes);
+router.use('/inventory', inventoryRoutes);
+router.use('/deal-items', dealItemRoutes);
+router.use('/quotes', quoteRoutes);
+router.use('/reports', reportRoutes);
+router.use('/analytics', analyticsRoutes);
+
+export default router;

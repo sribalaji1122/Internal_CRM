@@ -1,0 +1,1 @@
+import{a as t}from"./index-D433XKWQ.js";const r={getMeetings(e){return t.get("/meetings",{params:e})},getMeeting(e){return t.get(`/meetings/${e}`)},createMeeting(e){return t.post("/meetings",e)},updateMeeting(e,n){return t.put(`/meetings/${e}`,n)},deleteMeeting(e){return t.delete(`/meetings/${e}`)}};export{r as M};

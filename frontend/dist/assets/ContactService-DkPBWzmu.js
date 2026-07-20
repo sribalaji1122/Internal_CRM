@@ -1,0 +1,1 @@
+import{a as e}from"./index-D433XKWQ.js";const a={getContacts(t){return e.get("/contacts",{params:t})},getContact(t){return e.get(`/contacts/${t}`)},createContact(t){return e.post("/contacts",t)},updateContact(t,c){return e.put(`/contacts/${t}`,c)},deleteContact(t){return e.delete(`/contacts/${t}`)},convertLead(t){return e.post(`/leads/${t}/convert`)}};export{a as C};
